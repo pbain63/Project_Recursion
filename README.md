@@ -2,6 +2,8 @@
 
 A JavaScript project from [The Odin Project](https://www.theodinproject.com/lessons/javascript-recursion) that explores two classic computer science problems: the Fibonacci sequence and merge sort. The project demonstrates how to solve problems using both iteration and recursion.
 
+---
+
 ## About the Project
 
 The purpose of this project is to strengthen my understanding of recursion by implementing three algorithms in JavaScript:
@@ -12,12 +14,16 @@ The purpose of this project is to strengthen my understanding of recursion by im
 
 This project is part of my JavaScript learning journey through The Odin Project's Full Stack JavaScript curriculum.
 
+---
+
 ## Built With
 
 - JavaScript (ES6+)
 - Node.js
 - Git
 - GitHub
+
+---
 
 ## Project Requirements
 
@@ -28,6 +34,8 @@ The project follows the main requirements of The Odin Project assignment:
 3. Test both Fibonacci implementations with different input values.
 4. Implement a recursive merge sort algorithm that returns a sorted array.
 5. Run the JavaScript files from the command line using Node.js.
+
+---
 
 ## Project Structure
 
@@ -40,6 +48,8 @@ Project_Recursion/
 ├── LICENSE
 └── .gitignore
 ```
+
+---
 
 ## Features and Implementations
 
@@ -60,6 +70,7 @@ fibs(8); // returns [0, 1, 1, 2, 3, 5, 8, 13]
 The implementation also handles non positive inputs by returning a message requesting a valid number of elements.
 
 **Concepts practiced:**
+
 - Arrays
 - Variables and loops
 - Conditional statements
@@ -83,6 +94,7 @@ fibsRec(8); // returns [0, 1, 1, 2, 3, 5, 8, 13]
 The implementation includes base cases for the first and second Fibonacci numbers and handles non positive inputs.
 
 **Concepts practiced:**
+
 - Recursive function calls
 - Base cases
 - Recursive call stack
@@ -116,12 +128,15 @@ mergeSort([3, 2, 1, 13, 8, 5, 0, 1]);
 The algorithm also handles empty arrays, single element arrays, already sorted arrays, and arrays containing negative numbers.
 
 **Concepts practiced:**
+
 - Divide and conquer algorithms
 - Recursion and base cases
 - Array slicing
 - Helper functions
 - Comparing and merging values
 - Sorting algorithms
+
+---
 
 ## Getting Started
 
@@ -169,6 +184,7 @@ node mergeSort.js
 ```
 
 or if `nodemon` module is installed, then
+
 ```bash
 nodemon (file_name.js)
 ```
@@ -176,6 +192,8 @@ nodemon (file_name.js)
 Each file contains example function calls using `console.log()`, so the results are displayed in the terminal.
 
 No additional npm packages are required to run these files.
+
+---
 
 ## Example Outputs
 
@@ -242,6 +260,8 @@ mergeSort([110, -1, 4, 0, -5, 7, -19]);
 // [-19, -5, -1, 0, 4, 7, 110]
 ```
 
+---
+
 ## What I Learned
 
 Through this project, I practiced and improved my understanding of:
@@ -257,6 +277,8 @@ Through this project, I practiced and improved my understanding of:
 
 One of the most valuable lessons was learning that recursion is not simply a function calling itself. A correct recursive solution needs a clear stopping condition and a way to combine the results of smaller problems.
 
+---
+
 ## What I Would Like to Improve
 
 As I continue learning JavaScript and computer science fundamentals, I would like to:
@@ -266,6 +288,8 @@ As I continue learning JavaScript and computer science fundamentals, I would lik
 - Practice writing additional recursive algorithms.
 - Add automated tests to verify edge cases and expected outputs.
 
+---
+
 ## Useful Resources
 
 - [The Odin Project. Project: Recursion](https://www.theodinproject.com/lessons/javascript-recursion)
@@ -274,7 +298,10 @@ As I continue learning JavaScript and computer science fundamentals, I would lik
 - [MDN Web Docs: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Node.js Documentation](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 
+---
 
 ## License
 
 This project is available under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
